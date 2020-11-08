@@ -43,4 +43,15 @@ FROM employees as e
 WHERE birth_date BETWEEN '1965-01-01' AND '1965-12-31'
 ORDER BY e.emp_no;
 
-select * from mentorship_eligibility
+-- Working with Pewlett-Hackard query twenty years
+SELECT DISTINCT ON (emp_no) e.emp_no, e.first_name, e.last_name, e.birth_date, de.from_date, de.to_date, t.titles
+INTO twenty_years
+FROM employees as e
+	INNER JOIN dep_emp as de
+		ON (e.emp_no = de.emp_no)
+	INNER JOIN titles as t
+		ON (e.emp_no = t.emp_no)
+WHERE de.from_date BETWEEN '2000-01-01' AND '2000-12-31'
+ORDER BY e.emp_no;
+
+select * from twenty_years
