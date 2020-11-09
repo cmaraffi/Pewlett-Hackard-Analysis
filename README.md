@@ -11,8 +11,8 @@ This Analysis provides a few insights into the current workforce, headcount, and
 - The unique list contains 91K employees for the company which is much more narrowed down from the total employees, but the data needs to be filtered further.
 - Of the total retiring tiles, Senior Engineer and Senior Staff are about 60K of the total retiring titles.
     - that is about 80% of all retiring titles
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+![Github Logo](/images/Image 11-8-20 at 1.55 PM.png)
+
 
 ### Deliverable 2:
 - Filtering and finding those individuals who have been with the company a while will be able to mentor some of the junior employees and help the company overall.
@@ -28,5 +28,5 @@ The company is looking to replace about 90K individuals with about 6 different r
 senior_engineers.csv displays only that group
 
 #### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
-Yes. The roles who are retiring maybe across various branches of the company but the role itself may not vary as much. Having a dedicated team of experienced and new team members can get a fresh take on the role and make improvements to the company overall. 
-twenty_years.csv illustrates those who will be taking over some senior positions 
+Yes. The roles who are retiring maybe across various branches of the company but the role itself may not vary as much. Having a dedicated team of experienced and new team members can get a fresh take on the role and make improvements to the company overall. The twenty_years.csv illustrates those who will be taking over some senior positions.
+![Github Logo](/images/Image 11-8-20 at 3.44 PM.png)
